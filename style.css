@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Signika+Negative&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+* {
+    padding: 0;
+	margin: 0 auto;
+	box-sizing: border-box;
+	width: auto;
+}
+
+main {
+    height: 100vmin;
+    background-color: whitesmoke;
+    width: 95%;
+    /*background-image: linear-gradient(to bottom, whitesmoke, #c7bdca);*/
+}
+
+body 
+{
+    background-image: linear-gradient(90deg, rgb(100,100,100) 0%, rgb(10,10,10) 4%, rgb(10,10,10) 96%, rgb(100,100,100) 100%);
+}
+
+#nombre {
+    font-family: Signika Negative;
+    color: white;
+    text-align: left;
+    font-size: 225%;
+    padding: 0 20px;
+    width: 50%;
+}
+
+#portafolio {
+    font-family: Ubuntu;
+    color: white;
+    font-size: 200%;
+    text-align: right;
+    padding: 0 20px;
+    width: 50%;
+}
+
+#titulo {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+#introduccion {	
+    margin: 0 0;
+    border: 0 0;
+    padding: 0 0;
+	overflow: auto;
+	margin-bottom: 0px;
+    height: 15vh;
+    background-color: plum;
+    background-image: linear-gradient(to bottom, rgb(105, 65, 105), rgb(92, 37, 92));
+}
+
+#descripcion {
+    background-color: whitesmoke;
+    height: 85vh;
+    width: 100%;
+
+    text-align: center;
+    font-family: Ubuntu;
+
+    border: 0 0;
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+
+    /*top: -12%;*/
+}
+
+#metaballs {
+    border-radius: 50%;
+    border-color: red;
+    border-width: 10px;
+
+    height: 60vh;
+    width: 60vh;
+
+    background-image: url('metaball.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-color: aqua;
+}
+
+#texto-descripcion {
+    font-weight: 600;
+    font-size: 40px;
+    text-align: left;
+    width: 50%;
+    height: 60vh;
+    background-color: whitesmoke;
+}
+
+#bienvenida {
+    font-weight: 800;
+    font-size: 50px;
+}
+
+#parrafo {
+    font-weight: 400;
+    font-size: 40px;
+}
+
+#contenido {
+    background-color: whitesmoke;
+}
+
+
