@@ -89,7 +89,7 @@ body
     height: 60vh;
     width: 60vh;
 
-    background-image: url('metaball.gif');
+    background-image: url('Media/metaball.gif');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -167,15 +167,27 @@ h1 {
 }
 
 .proyecto:nth-child(3n + 3) a {
-    color: rgb(15, 15, 15);
+    color: rgb(0, 0, 0);
 }
 
 .proyecto:nth-child(3n + 2) a {
-    color: rgb(35, 35, 35);
+    color: rgb(15, 15, 15);
 }
 
 .proyecto:nth-child(3n + 1) a {
-    color: whitesmoke;
+    color: rgb(255, 255, 255);
+}
+
+.proyecto:nth-child(3n + 3) a:hover {
+    color: blue;
+}
+
+.proyecto:nth-child(3n + 2) a:hover {
+    color: blue;
+}
+
+.proyecto:nth-child(3n + 1) a:hover {
+    color: blue;
 }
 
 .proyecto:nth-child(2n + 1) {
@@ -189,5 +201,9 @@ h1 {
 #seekers {
     width: 480px;
     height: 270px;
+}
+
+a:hover {
+    color: blue;
 }
 
