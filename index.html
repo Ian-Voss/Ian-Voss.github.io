@@ -25,19 +25,111 @@
 				<div id="metaballs"></div>
 				
 				<div id = "texto-descripcion">
-					<h1 id="bienvenida">Bienvenidos a mi portafolio!</h1>
-					<p id="parrafo">Esta es la pagina donde muestro algunos de los proyectos que realize en mi trayecto como estudiante y programador.</p>
+					<h1 id="bienvenida">¡Bienvenidos a mi portafolio!</h1>
+					<p id="parrafo">Esta es la página donde muestro algunos de los proyectos que realicé en mi trayecto como estudiante y programador.</p>
 				 </div>
 			</section>
 
 			<section id="contenido">
-				<div class="proyecto"></div>
-				<div class="proyecto"></div>
-				<div class="proyecto"></div>
-				<div class="proyecto"></div>
-				<div class="proyecto"></div>
-				<div class="proyecto"></div>
-				<div class="proyecto"></div>
+
+				<div class="proyecto">
+					<video width="584" height="355" controls>
+						<source src="Raycasting.mp4" type="video/mp4">
+					  	Your browser does not support the video tag.
+					</video>
+					<div>
+						<h1> Raycasting con OpenGL </h1>
+						<p class="descripcion_proyecto"> El proyecto se basa en la visualización de una escena
+							con el método de renderizado Raycasting utilizado en juegos como Wolfenstein. Escrito en C y con OpenGL, casi la comunicación
+							más directa y básica que se puede tener con la placa de video. Implementando un método para utilizar solo dos triángulos por pared,
+							el cual necesito utilizar un algoritmo de resolución de sistemas de ecuaciones lineales.
+						</p>
+					</div>
+				</div>
+
+				<div class="proyecto">
+					<video width="584" height="355" controls>
+						<source src="Renderizado3D.mp4" type="video/mp4">
+					  	Your browser does not support the video tag.
+					</video>
+					<div>
+						<h1> Renderizado 3D </h1>
+						<p class="descripcion_proyecto"> Un proyecto de renderizado 3D más tradicional con proyección, 
+						suficientemente dinámico como para renderizar las esferas con método Ray Tracing que se pueden ver en el video, y con iluminación.
+						</p>
+					</div>
+				</div>
+
+				<div class="proyecto">
+					<video width="584" height="355" controls>
+						<source src="Minecraft.mp4" type="video/mp4">
+					  	Your browser does not support the video tag.
+					</video>
+					<div>
+						<h1> Clon de Minecraft </h1>
+						<p class="descripcion_proyecto"> Con el mismo código de renderizado 3D anterior, usando ruido de perlin y FBM para la 
+                            creación de la geometría, tenemos un clon básico del juego Minecraft básico.</p>
+					</div>
+				</div>
+
+				<div class="proyecto">
+					<video width="584" height="355" controls>
+						<source src="Particle sim.mp4" type="video/mp4">
+					  	Your browser does not support the video tag.
+					</video>
+					<div>
+						<h1> Simulador de particulas </h1>
+						<p class="descripcion_proyecto"> Partículas atraídas por gravedad entre sí, con las partículas siendo más pesadas
+                            mientras más rojas son. La simulación tiene la capacidad de soportar 1000 partículas o más utilizando multiprocessing
+                            para acelerar los cálculos. 
+						</p>
+					</div>
+				</div>
+
+				<div class="proyecto">
+					<video id="seekers" width="550" height="355" controls>
+						<source src="Enemigos.mp4" type="video/mp4">
+					  	Your browser does not support the video tag.
+					</video>
+					<div>
+						<h1> Comportamiento de persecución </h1>
+						<p class="descripcion_proyecto"> 
+                            Se trata de una versión modificada del modelo de agentes
+                            de persecución propuesto propuesto en el siguiente paper: <a href="url">
+								https://www.red3d.com/cwr/steer/.</a>
+						</p>
+						<p class="descripcion_proyecto"> 
+							Se trata de una versión modificada del modelo La modificación permite que los agentes tracen una curva mientras persiguen al objetivo.
+						</p>
+					</div>
+				</div>
+
+				<div class="proyecto">
+					<img src="Interprete.png">
+					<div>
+						<h1> Interprete de formulas en C </h1>
+						<p class="descripcion_proyecto"> 
+                            Una aplicación escrita en C capaz de evaluar fórmulas matemáticas sin volver a compilar,
+                            sin uso de ninguna librería aparte de las incluidas en el lenguaje. Código disponible pronto.
+						</p>
+					</div>
+				</div>
+
+				<div class="proyecto">
+					<video width="550" height="355" controls>
+						<source src="Shader.webm" type="video/mp4">
+					  	Your browser does not support the video tag.
+					</video>
+					<div>
+						<h1> Perfil de ShaderToy </h1>
+						<p class="descripcion_proyecto"> 
+                            Mi perfil de ShaderToy con algunos proyectos visuales con la herramienta:
+							<a href="url">
+								https://www.shadertoy.com/view/XflXzn
+							</a>
+						</p>
+					</div>
+				</div>
 			</section>
 
 		</main>

@@ -18,7 +18,7 @@ main {
 
 body 
 {
-    background-image: linear-gradient(90deg, rgb(100,100,100) 0%, rgb(10,10,10) 4%, rgb(10,10,10) 96%, rgb(100,100,100) 100%);
+    background-image: linear-gradient(90deg, rgb(100,100,100) 0%, rgb(0,0,0) 4%, rgb(0,0,0) 96%, rgb(100,100,100) 100%);
 }
 
 #nombre {
@@ -48,7 +48,7 @@ body
     display: flex;
     flex-direction: row;
     align-items: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     width: 100%;
 }
 
@@ -93,8 +93,6 @@ body
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
-    background-color: aqua;
 }
 
 #texto-descripcion {
@@ -104,6 +102,7 @@ body
     width: 50%;
     height: 60vh;
     background-color: whitesmoke;
+    color: rgb(15, 15, 15);
 }
 
 #bienvenida {
@@ -120,4 +119,75 @@ body
     background-color: whitesmoke;
 }
 
+.proyecto {
+    height: 85vh;
+    width: 100%;
+
+    text-align: left;
+    font-family: Ubuntu;
+    font-weight: 400;
+    font-size: 30px;
+
+    border: 0 0;
+    display: flex;
+
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 10%;
+
+    padding: 0px 3%;
+
+    /*top: -12%;*/
+}
+
+h1 {
+    padding-bottom: 10px;
+}
+
+.descripcion_proyecto
+{
+    font-size: 20px;
+}
+
+.proyecto:nth-child(3n + 1) {
+    color: whitesmoke;
+    background-color: rgb(122, 73, 102);
+}
+
+.proyecto:nth-child(3n + 2) {
+    color: rgb(35, 35, 35);
+    background-color: rgb(226, 175, 206);
+}
+
+.proyecto:nth-child(3n + 3) {
+    color: rgb(15, 15, 15);
+    background-color: rgb(240, 229, 239);
+
+}
+
+.proyecto:nth-child(3n + 3) a {
+    color: rgb(15, 15, 15);
+}
+
+.proyecto:nth-child(3n + 2) a {
+    color: rgb(35, 35, 35);
+}
+
+.proyecto:nth-child(3n + 1) a {
+    color: whitesmoke;
+}
+
+.proyecto:nth-child(2n + 1) {
+    flex-direction: row;
+}
+
+.proyecto:nth-child(2n) {
+    flex-direction: row-reverse;
+}
+
+#seekers {
+    width: 480px;
+    height: 270px;
+}
 
