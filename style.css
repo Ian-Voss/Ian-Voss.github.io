@@ -16,6 +16,15 @@ main {
     /*background-image: linear-gradient(to bottom, whitesmoke, #c7bdca);*/
 }
 
+a:hover {
+    color: blue;
+}
+
+
+h1 {
+    padding-bottom: 10px;
+}
+
 body 
 {
     background-image: linear-gradient(90deg, rgb(100,100,100) 0%, rgb(0,0,0) 4%, rgb(0,0,0) 96%, rgb(100,100,100) 100%);
@@ -141,12 +150,7 @@ body
     /*top: -12%;*/
 }
 
-h1 {
-    padding-bottom: 10px;
-}
-
-.descripcion_proyecto
-{
+.descripcion_proyecto {
     font-size: 20px;
 }
 
@@ -178,18 +182,6 @@ h1 {
     color: rgb(255, 255, 255);
 }
 
-.proyecto:nth-child(3n + 3) a:hover {
-    color: blue;
-}
-
-.proyecto:nth-child(3n + 2) a:hover {
-    color: blue;
-}
-
-.proyecto:nth-child(3n + 1) a:hover {
-    color: blue;
-}
-
 .proyecto:nth-child(2n + 1) {
     flex-direction: row;
 }
@@ -201,9 +193,5 @@ h1 {
 #seekers {
     width: 480px;
     height: 270px;
-}
-
-a:hover {
-    color: blue;
 }
 
